@@ -1,8 +1,10 @@
-#pragma once
+#ifndef DZ60_H
+#define DZ60_H
 
 #include "quantum.h"
 
 // Corresponding changes to the layout names and/or definitions must also be made to info.json
+
 
 // 标准配列
 /* Standard arrangement / LAYOUT
@@ -653,3 +655,4 @@
     { k30,  k31,   k32,   k33,  k34,   k35,   k36,  k37,   k38,   k39,   k3a,  k3b,  k3c,   k3d,   k3e   }, \
     { k40,  k41,   KC_NO, k43,  KC_NO, KC_NO, k46,  KC_NO, KC_NO, KC_NO, k4a,  k4b,  k4c,   k4d,   k4e   }  \
 }
+#endif
